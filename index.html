@@ -313,21 +313,26 @@ const SITE = {
 // One entry per game. `status`: 'released' | 'development' | 'prototype'.
 // `featured: true` on (at most) one game puts it in the hero.
 const GAMES = [
-  // Example — replace or remove, then ask Claude to add your real games:
-  // {
-  //   id: 'sample-game',
-  //   title: 'Sample Game',
-  //   tagline: 'A short, punchy one-liner.',
-  //   description: 'A longer description of the game — what it is, how you play, what makes it worth trying.',
-  //   status: 'released',
-  //   genre: 'Platformer',
-  //   coverUrl: 'https://example.com/cover.png',
-  //   videoUrl: 'https://youtu.be/xxxxxxxx',
-  //   screenshots: ['https://example.com/shot1.png', 'https://example.com/shot2.png'],
-  //   platforms: [{ label: 'Play on itch.io', url: 'https://yourname.itch.io/sample-game' }],
-  //   published: true,
-  //   featured: true,
-  // },
+  {
+    id: 'sample-game',
+    title: 'Sample Game',
+    tagline: 'A hand-drawn RPG about a wandering forge-keeper.',
+    description: 'A story-driven pixel RPG following a traveling blacksmith who forges weapons for the towns they pass through — and gets pulled into each town\'s troubles along the way. Turn-based combat, a crafting system tied to the smithing mechanic, and a branching story shaped by which towns you choose to help. This is placeholder content — replace it with your real game whenever it\'s ready.',
+    status: 'development',
+    genre: 'RPG',
+    coverUrl: 'https://placehold.co/800x600/1e2233/f2c14e?text=Sample+RPG',
+    videoUrl: '',
+    screenshots: [
+      'https://placehold.co/640x360/262b40/eeece6?text=Screenshot+1',
+      'https://placehold.co/640x360/262b40/eeece6?text=Screenshot+2',
+      'https://placehold.co/640x360/262b40/eeece6?text=Screenshot+3'
+    ],
+    platforms: [
+      { label: 'Wishlist on itch.io', url: 'https://yourname.itch.io/sample-game' }
+    ],
+    published: true,
+    featured: true,
+  },
 ];
 
 /* ================================================================
